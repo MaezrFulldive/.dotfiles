@@ -12,16 +12,16 @@ sudo pacman -S git stow
 
 First clone the repo into your ~/
 
-'''
+```
 $ git clone https://github.com/MaezrFulldive/dots.git
 $ cd .dotfiles
-'''
+```
 
 then use stow to create symlinks 
 
-'''
+```
 $ stow .
-'''
+```
 
 ## Refrence
 for furthem info on how this was a chived, and a simple to torial for you to refrence, here is the vid: https://youtu.be/y6XCebnB9gs?si=lwp0Ba3d9D7ZtH2e
