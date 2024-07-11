@@ -6,7 +6,11 @@ ovb these are my beaut dots 😊
 
 sudo pacman -S git stow
 
-
+### Configured Applications
+[*] hyprland
+[ ] hyprpaper
+[*] foot
+[ ] obsidian 
 
 ## Instalation
 
@@ -14,7 +18,7 @@ First clone the repo into your ~/
 
 ```
 $ git clone https://github.com/MaezrFulldive/dots.git
-$ cd .dotfiles
+$ cd dots
 ```
 
 then use stow to create symlinks 
