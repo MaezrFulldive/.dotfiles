@@ -7,10 +7,10 @@ ovb these are my beaut dots 😊
 sudo pacman -S git stow
 
 ### Configured Applications
-[X] hyprland
-[ ] hyprpaper
-[X] foot
-[ ] obsidian 
+- [X] hyprland
+- [ ] hyprpaper
+- [X] foot
+- [ ] obsidian 
 
 ## Instalation
 
