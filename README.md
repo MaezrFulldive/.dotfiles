@@ -14,21 +14,21 @@ sudo pacman -S git stow
 
 ## Instalation
 
-First clone the repo into your ~/
+First clone the repo into your ~/.dotfiles/
 
 ```
 $ git clone https://github.com/MaezrFulldive/dots.git
-$ cd dots
+$ cd .dotfiles
 ```
 
-then use stow to create symlinks 
+then use tuckr to create symlinks 
 
 ```
-$ stow .
+$ tuckr add \*
 ```
 
 ## Refrence
-for furthem info on how this was a chived, and a simple to torial for you to refrence, here is the vid: https://youtu.be/y6XCebnB9gs?si=lwp0Ba3d9D7ZtH2e
+for furthem info on how this was achived, and for you to refrence, here is the tuckr repo: https://github.com/RaphGL/Tuckr
 
 
 
