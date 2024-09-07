@@ -1,6 +1,6 @@
 # My dotfiles
 
-ovb these are my beaut dots 😊
+obv these are my beaut dots 😊
 
 ### Requirements
 
