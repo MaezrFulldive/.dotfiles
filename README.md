@@ -30,7 +30,7 @@ $ tuckr add \*
 ```
 
 ## Refrence
-for furthem info on how this was achived, and for you to refrence, here is the tuckr repo: https://github.com/RaphGL/Tuckr
+for further info on how this was achieved, and for you to refrence, here is the tuckr repo: https://github.com/RaphGL/Tuckr
 
 
 
