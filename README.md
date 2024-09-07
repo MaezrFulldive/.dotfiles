@@ -8,6 +8,8 @@ sudo pacman -S git stow
 
 ### Configured Applications
 - [X] hyprland
+- [X] niri
+- [X] tofi
 - [ ] hyprpaper
 - [X] foot
 - [ ] obsidian 
