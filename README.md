@@ -3,18 +3,21 @@
 obv these are my beaut dots 😊
 
 ### Requirements
-
+```
 sudo pacman -S git
 
 sudo pacman -S --needed base-devel git
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 
 yay -S tuckr-git bat 
+```
 
 ##### The actual programs 
+```
 sudo pacman -S hyprland niri foot keepassxc 
 
 yay -S tofi zsh
+```
 
 ### Configured Applications
 - [X] hyprland
