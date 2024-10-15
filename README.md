@@ -9,12 +9,12 @@ sudo pacman -S git
 sudo pacman -S --needed base-devel git
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 
-yay -S tuckr-git
+yay -S tuckr-git bat 
 
 ##### The actual programs 
-sudo pacman -S hyprland niri foot
+sudo pacman -S hyprland niri foot keepassxc 
 
-yay -S tofi
+yay -S tofi zsh
 
 ### Configured Applications
 - [X] hyprland
@@ -23,19 +23,39 @@ yay -S tofi
 - [ ] hyprpaper
 - [X] foot
 - [ ] obsidian 
+- [x] Code-OSS
+- [x] zsh
 
 ## Instalation
 
-First clone the repo into your ~/.dotfiles/
+Install zsh
+```
+$sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
 
+Clone the repo into ~/.dotfiles
 ```
 $ git clone https://github.com/MaezrFulldive/dots.git
 $ cd .dotfiles
 ```
 
-then use tuckr to create symlinks 
+Then use tuckr to create symlinks 
 
 ```
+$ tuckr add \*
+```
+
+To add more dotfiles to your git repo, simple cut and paste the files useing the directory stucture of 
+
+.dotfiles/Configs/your-label/.config/application/dotfile.conf
+
+commit the changes
+
+Then update your local tuckr
+
+```
+$ tuckr status
+
 $ tuckr add \*
 ```
 
