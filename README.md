@@ -14,7 +14,7 @@ yay -S tuckr-git bat
 
 ##### The actual programs 
 ```
-sudo pacman -S hyprland niri foot keepassxc 
+sudo pacman -S hyprland hyprshot hyprlock niri foot keepassxc mako  
 
 yay -S tofi zsh
 ```
